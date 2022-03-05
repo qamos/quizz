@@ -4,12 +4,10 @@ const quizData = [{
 		answer_alias: "one",
 		answers: [{
 				answer_title: "До 20 м.кв",
-				img: "http://prohouse.one/wp-content/uploads/2020/09/fah.jpg",
 				type: "radio"
 			},
 			{
 				answer_title: "До 30 м.кв",
-				img: "http://prohouse.one/wp-content/uploads/2020/09/529cc0753984a2e7044499873dc10172.jpg",
 				type: "radio"
 			},
 			{
@@ -19,7 +17,6 @@ const quizData = [{
 			},
 			{
 				answer_title: "Более 40 м.кв",
-				img: "http://prohouse.one/wp-content/uploads/2020/09/fah.jpg",
 				type: "radio"
 			}
 		]
@@ -44,98 +41,100 @@ const quizData = [{
 	},
 	{
 		number: 3,
-		title: "В помещении есть дополнительные источники тепловыделений (плиты, печи и т.д.)?",
+		title: "Сколько человек будут находится в помещении?",
 		answer_alias: "three",
 		answers: [{
-				answer_title: "До 3 метров",
+				answer_title: "До 5 человек",
 				type: "radio"
 			},
 			{
-				answer_title: "До 4 метров",
+				answer_title: "До 10 человек",
 				type: "radio"
 			},
 			{
-				answer_title: "Более 4 метров",
+				answer_title: "Более 10 человек",
 				type: "radio"
 			}
 		]
 	},
 	{
 		number: 4,
-		title: "Где планируется размещение наружного блока кондиционера?",
+		title: "В помещении есть дополнительные источники тепловыделений (плиты, печи и т.д.)?",
 		answer_alias: "four",
 		answers: [{
-				answer_title: "На фасаде",
+				answer_title: "Есть",
 				type: "radio"
 			},
 			{
-				answer_title: "На крыше",
+				answer_title: "Нет",
 				type: "radio"
 			},
 			{
-				answer_title: "На балконе или лоджии",
-				type: "radio"
-			},
-			{
-				answer_title: "Кондиционер без внешнего блока",
+				answer_title: "Не знаю",
 				type: "radio"
 			}
 		]
 	},
 	{
 		number: 5,
-		title: "Где прокладывать коммуникации (фреонопровод и электрический кабель)?",
+		title: "Назначение помещения?",
 		answer_alias: "five",
 		answers: [{
-				answer_title: "Планируется в штробе (скрытая проводка)",
+				answer_title: "Санузел",
 				type: "radio"
 			},
 			{
-				answer_title: "В лотке (открытая проводка)",
+				answer_title: "Ванная комната",
+				type: "radio"
+			},
+			{
+				answer_title: "Кухня или столовая",
+				type: "radio"
+			},
+			{
+				answer_title: "Гостиная",
+				type: "radio"
+			},
+			{
+				answer_title: "Спальня",
+				type: "radio"
+			},
+			{
+				answer_title: "Другое",
 				type: "radio"
 			}
 		]
 	},
 	{
 		number: 6,
-		title: "Нужен кондиционер с пониженным уровнем шума?",
+		title: "Из какого материала наружные стены помещения?",
 		answer_alias: "six",
 		answers: [{
-				answer_title: "Стандартный",
+				answer_title: "Кирпич",
 				type: "radio"
 			},
 			{
-				answer_title: "Инверторный (тихий)",
+				answer_title: "Железобетон",
+				type: "radio"
+			},
+			{
+				answer_title: "Газобетон",
+				type: "radio"
+			},
+			{
+				answer_title: "Дерево",
+				type: "radio"
+			},
+			{
+				answer_title: "Другое",
 				type: "radio"
 			}
 		]
 	},
 	{
 		number: 7,
-		title: "Какое исполнение кондиционера?",
-		answer_alias: "seven",
-		answers: [{
-				answer_title: "Настенный",
-				type: "radio"
-			},
-			{
-				answer_title: "Потолочный",
-				type: "radio"
-			},
-			{
-				answer_title: "Кассетный",
-				type: "radio"
-			},
-			{
-				answer_title: "канальный (скрытый) или кондиционер без внешнего блока?",
-				type: "radio"
-			}
-		]
-	},
-	{
-		number: 8,
 		title: "Когда планируете монтаж?",
-		answer_alias: "eght",
+		answer_alias: "seven",
 		answers: [{
 				answer_title: "В ближайшее время",
 				type: "radio"
@@ -151,7 +150,7 @@ const quizData = [{
 		]
 	},
 	{
-		number: 9,
+		number: 8,
 		title: "Оставьте свой телефон, мы вам перезвоним",
 		answer_alias: "phone",
 		answers: [{

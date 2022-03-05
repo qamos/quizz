@@ -110,7 +110,7 @@ class Quiz {
 
 					this.$el.insertAdjacentHTML('beforeend', `
 					<div class="quiz-question__phone">
-						<p>Оставьте телефон, чтобы узнать результаты теста, получить каталог проектов и закрепить за собой выбранный Вами подарок</p>
+						<p>Оставьте телефон, чтобы узнать результаты теста и получить в подарок год бесплатного обслуживания.</p>
 
 
 						<input data-valid="false" id="phone" class="quiz-question__inputphone" name="Телефон" placeholder="+7(000)000-00-00" value="+7">
@@ -171,7 +171,7 @@ class Quiz {
 				}
 			}
 
-			const response = fetch('/mail.php', {
+			const response = fetch('mail.php', {
 				method: 'POST',
 				body: formData
 			});
